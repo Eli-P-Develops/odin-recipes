@@ -1,3 +1,3 @@
 # odin-recipes
-Odin Recipes Project
+Odin Recipes Project/n
 Creating a list of recipes ideas
