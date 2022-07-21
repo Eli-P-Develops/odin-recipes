@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+html { 
+  background: url(https://images.pexels.com/photos/4109137/pexels-photo-4109137.jpeg?cs=srgb&dl=pexels-polina-tankilevitch-4109137.jpg&fm=jpg) no-repeat center center fixed; 
+  background-size: cover;
+ }
+img {
+  border: none;
+  max-width: 10px;
+  width: auto;
+  max-height: 10px;
+}
