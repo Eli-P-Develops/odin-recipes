@@ -1,13 +1,21 @@
 * {
   box-sizing: border-box;
 }
-html { 
-  background: url(https://images.pexels.com/photos/4109137/pexels-photo-4109137.jpeg?cs=srgb&dl=pexels-polina-tankilevitch-4109137.jpg&fm=jpg) no-repeat center center fixed; 
-  background-size: cover;
- }
-img {
-  border: none;
-  max-width: 10px;
-  width: auto;
-  max-height: 10px;
+header {
+  text-align: center;
+  padding: 30px;
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pizza {
+  width: 200px;
+  height: 250px;
+  display: flex;
+  margin: auto;
+}
+body {
+  margin: 0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
