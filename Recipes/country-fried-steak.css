@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+}
+header {
+  text-align: center;
+  padding: 30px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pizza {
+  width: 200px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.pizza-img {
+  width: 100%;
+  border-radius: 30px;
+  padding-bottom: 10px;
+  object-fit: cover;
+}
+.title {
+  font-size: 2.5rem;
+  font-family: Tahoma, sans-serif;
+}
+.description {
+  margin: 10px 0 10px 10px;
+  padding: 5px;
+}
+.description-title {
+  font-size: 1.5rem;
+  margin-bottom: 7px;
+  letter-spacing: 0.3px;
+  font-family: Helvetica, sans-serif;
+}
+.description-text {
+  font-size: 1.0rem;
+  font-family: Georgia, sans-serif;
+  letter-spacing: 0.5px;
+  padding-left: 10px;
+}
+
+.ingredients {
+  margin: 10px 0 10px 10px;
+  padding: 5px;
+}
+.ingredients-title {
+  font-size: 1.5rem;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 0.3px;
+  margin-bottom: 7px;
+}
+.ingredients-list {
+  font-size: 1.0rem;
+  font-family: Georgia, sans-serif;
+  letter-spacing: 0.5px;
+  margin-left: 20px;
+}
+.steps {
+  margin: 10px 0 10px 0;
+  padding: 5px;
+}
+.steps-title {
+  font-size: 1.5rem;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 0.3px;
+  margin-bottom: 7px;
+}
+.steps-list {
+  font-size: 1.0rem;
+  font-family: Georgia, sans-serif;
+  letter-spacing: 0.5px;
+  margin-left: 20px;
+}
+.item {
+  padding: 2px;
+}
+.method {
+  padding: 2px;
+}
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .description-title, .ingredients-title, .steps-title {
+    font-size: 1.0rem;
+  }
+  .description-text, .ingredients-list, .steps-list {
+    font-size: 0.8rem;
+  }
+}
+
