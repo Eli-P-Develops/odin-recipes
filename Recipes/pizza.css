@@ -1,18 +1,19 @@
 * {
   box-sizing: border-box;
 }
-html {
-  
-}
+
 body {
   margin: 0;
   padding: 0;
+  background-color: lightgray;
 }
+
 header {
   text-align: center;
   margin: 30px auto;
   width: 50%;
 }
+
 .pizza {
   width: 200px;
   height: 200px;
@@ -20,25 +21,30 @@ header {
   justify-content: center;
   margin: auto;
 }
+
 .pizza-img {
   width: 100%;
   border-radius: 15%;
   object-fit: cover;
 }
+
 .title {
   font-size: 2.5rem;
   font-family: Tahoma, sans-serif;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .description {
   margin: 0 0 0 15px;
 }
+
 .description-title {
   font-size: 1.75rem;
   font-family: Helvetica, sans-serif;
   margin-bottom: 10px;
 }
+
 .description-text {
   font-size: 1.0rem;
   font-family: Georgia, sans-serif;
@@ -49,34 +55,43 @@ header {
 .ingredients {
   margin: 0 0 0 15px;
 }
+
 .ingredients-title {
   font-size: 1.75rem;
   font-family: Helvetica, sans-serif;
   letter-spacing: 0.3px;
   margin-bottom: 10px;
 }
+
 .ingredients-list {
   font-size: 1.0rem;
   font-family: Georgia, sans-serif;
 }
+
 .steps {
   margin: 0 0 0 15px;
 }
+
 .steps-title {
   font-size: 1.75rem;
   font-family: Helvetica, sans-serif;
   margin-bottom: 10px;
 }
+
 .steps-list {
   font-size: 1.0rem;
   font-family: Georgia, sans-serif;
+  padding-right: 40%;
 }
+
 .item {
-  padding: 2px;
+  padding: 5px;
 }
+
 .method {
-  padding: 2px;
+  padding: 5px;
 }
+
 @media only screen and (min-width: 320px) and (max-width: 576px) {
   .title {
     font-size: 1.5rem;

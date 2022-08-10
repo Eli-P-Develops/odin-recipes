@@ -1,13 +1,13 @@
 * {
   box-sizing: border-box;
 }
-html {
-  
-}
+
 body {
   margin: 0;
   padding: 0;
+  background-color: lightgray;
 }
+
 header {
   text-align: center;
   margin: 30px auto;
@@ -21,11 +21,13 @@ header {
   justify-content: center;
   margin: auto;
 }
+
 .wings-img {
   width: 100%;
   border-radius: 15%;
   object-fit: cover;
 }
+
 .title {
   font-size: 2.5rem;
   font-family: Tahoma, sans-serif;
@@ -33,14 +35,17 @@ header {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .description {
   margin: 0 0 0 15px;
 }
+
 .description-title {
   font-size: 1.75rem;
   font-family: Helvetica, sans-serif;
   margin-bottom: 10px;
 }
+
 .description-text {
   font-size: 1.0rem;
   font-family: Georgia, sans-serif;
@@ -73,23 +78,29 @@ header {
 .steps {
   margin: 0 0 0 15px;
 }
+
 .steps-title {
   font-size: 1.75rem;
   font-family: Helvetica, sans-serif;
   letter-spacing: 0.3px;
   margin-bottom: 10px;
 }
+
 .steps-list {
   font-size: 1.0rem;
   font-family: Georgia, sans-serif;
   letter-spacing: 0.5px;
+  padding-right: 40%;
 }
+
 .item {
-  margin: 3px;
+  margin: 5px;
 }
+
 .method {
-  margin: 3px;
+  margin: 5px;
 }
+
 @media only screen and (min-width: 320px) and (max-width: 576px) {
   .title {
     font-size: 1.5rem;
@@ -97,8 +108,11 @@ header {
   .description-title, .ingredients-title, .steps-title {
     font-size: 1.0rem;
   }
+  .ingredients-subtitle {
+    font-size: 0.8rem
+  }
   .description-text, .ingredients-list, .steps-list {
-    font-size: 0.8rem;
+    font-size: 0.65rem;
   }
 }
 

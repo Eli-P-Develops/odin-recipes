@@ -1,16 +1,66 @@
-h1 {
-  margin: 0.7em auto;
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
+
 body {
   width: 100%;
   height: 100vh;
   margin: 0;
+  padding: 0;
   background-color: lightgray;
   font-family: Tahoma, sans-serif;
 	font-size: 16px;
 }
-.item {
-  display: inline-block;
+
+h1 {
+  margin: 0.7em auto;
+  text-align: center;
+}
+
+.item-img {
+  weight: 100%;
+  height: 25vh;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
   align-items: center;
+  justify-content: space-evenly;
+}
+
+.buffalo-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15%;
+  padding: 5px
+}
+
+.fried-steak-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15%;
+  padding: 5px;
+}
+
+.pizza-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15%;
+  padding: 5px;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 30px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .item-img {
+    object-fit: contain;
+  }
 }
